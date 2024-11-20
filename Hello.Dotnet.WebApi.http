@@ -1,0 +1,11 @@
+﻿@Hello.Dotnet.WebApi_HostAddress = https://localhost:7220
+
+POST {{Hello.Dotnet.WebApi_HostAddress}}/todo/items
+Content-Type: application/json
+
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+###
